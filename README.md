@@ -24,7 +24,7 @@ I build **robots** and the **open-source software** that runs them — from natu
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fadi-labib/nanonav">nanonav</a></h3>
-      Lightweight navigation for small robots.<br/>
+      Tiny Recursive Model (TRM) for grid-based navigation — neural pathfinding that imitates A*.<br/>
       <sub><b>Python</b></sub>
     </td>
     <td width="50%" valign="top">
