@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg" alt="Fadi Labib — Robotics & production-software engineer, Berlin" width="100%" />
+<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=2" alt="Fadi Labib — Robotics & production-software engineer, Berlin" width="100%" />
 
 ### I build **robots** and the **open-source software** that runs them
 
