@@ -8,12 +8,9 @@ From nature-inspired path planning to DIY photogrammetry drones — big on open 
 
 </div>
 
-## 📊 GitHub Stats
+## 📊 Contributions
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=fadi-labib&show_icons=true&hide_border=true&theme=github_dark&title_color=2EA043&icon_color=2EA043&count_private=true" alt="Fadi's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadi-labib&layout=compact&hide_border=true&theme=github_dark&title_color=2EA043&langs_count=8" alt="Top languages" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake-dark.svg" />
