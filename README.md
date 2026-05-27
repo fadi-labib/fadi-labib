@@ -1,10 +1,27 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3d2e,50:0d1117,100:1f2a44&height=200&section=header&text=Fadi%20Labib&fontColor=ffffff&fontSize=52&desc=Robotics%20%26%20production-software%20engineer%20%C2%B7%20Berlin&descSize=18&descAlignY=64" alt="Fadi Labib — Robotics & production-software engineer, Berlin" width="100%" />
+<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg" alt="Fadi Labib — Robotics & production-software engineer, Berlin" width="100%" />
+
+### I build **robots** and the **open-source software** that runs them
+
+From nature-inspired path planning to DIY photogrammetry drones — big on open innovation and shipping production-grade systems.
 
 </div>
 
-I build **robots** and the **open-source software** that runs them — from nature-inspired path planning to DIY photogrammetry drones. Big on open innovation and shipping production-grade systems.
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=fadi-labib&show_icons=true&hide_border=true&theme=github_dark&title_color=2EA043&icon_color=2EA043&count_private=true" alt="Fadi's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadi-labib&layout=compact&hide_border=true&theme=github_dark&title_color=2EA043&langs_count=8" alt="Top languages" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
+  <img width="98%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
+</picture>
+
+</div>
 
 ## 🚀 Featured Projects
 
@@ -36,8 +53,6 @@ I build **robots** and the **open-source software** that runs them — from natu
 </table>
 
 ## 🛠️ Tech Stack
-
-> Badges via [shields.io](https://shields.io) + [simple-icons](https://simpleicons.org) logos, on one consistent dark tone. A few specialized tools (DDS, PX4, OpenDroneMap, AUTOSAR, Yocto, RTOS, QNX) have no published logo, so they show as plain labels.
 
 **Languages**
 
@@ -94,27 +109,14 @@ I build **robots** and the **open-source software** that runs them — from natu
 ![AWS](https://img.shields.io/badge/AWS-1F2A44?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-1F2A44?style=for-the-badge&logo=linux&logoColor=white)
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=fadi-labib&show_icons=true&hide_border=true&theme=github_dark&title_color=2EA043&icon_color=2EA043&count_private=true" alt="Fadi's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadi-labib&layout=compact&hide_border=true&theme=github_dark&title_color=2EA043&langs_count=8" alt="Top languages" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
-  <img width="98%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
-</picture>
-
-</div>
-
 ## 🤝 Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadi-labib)
-[![Website](https://img.shields.io/badge/Website-555555?style=for-the-badge&logo=googlechrome&logoColor=white)](https://fadilabib.com)
-[![Email](https://img.shields.io/badge/Email-C5221F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:github@fadilabib.com)
+<a href="https://www.linkedin.com/in/fadi-labib"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="38" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://fadilabib.com"><img src="https://img.shields.io/badge/Website-2EA043?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Website" /></a>
+&nbsp;
+<a href="mailto:github@fadilabib.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="38" alt="Email" /></a>
 
 </div>
