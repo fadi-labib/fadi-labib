@@ -1,13 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=4" alt="Fadi Labib · AI experiments · software-defined physical systems · edge-to-cloud" width="100%" />
+<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=5" alt="Fadi Labib · AI experiments · software-defined physical systems · edge-to-cloud" width="100%" />
 
 ### Hands-on **experiments in what AI does to how we ship**
 
 I build **software-defined physical systems**: robots, drones, and fleet telemetry, plus the **edge-to-cloud** layer that ties them together.<br/>
-I write what I build.
+I ship, then write what I learned.
 
-<a href="https://fadilabib.com"><b>fadilabib.com</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/fadi-labib">LinkedIn</a>
+<a href="https://fadilabib.com"><img src="https://img.shields.io/badge/fadilabib.com-3b7dd8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/fadi-labib"><img src="https://img.shields.io/badge/LinkedIn-3b7dd8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
 </div>
 

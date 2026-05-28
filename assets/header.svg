@@ -7,49 +7,59 @@
   viewBox="0 0 854 200"
 >
   <style>
-    .name { font-size: 52px; font-weight: 700; font-family: 'Space Grotesk','Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
-    .desc { font-size: 18px; font-weight: 500; letter-spacing: 0.4px; font-family: 'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
-    .name, .desc { animation: fadeIn 1.2s ease-in-out forwards; }
+    .name { font-size: 46px; font-weight: 700; font-family: 'Space Grotesk','Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .desc { font-size: 17px; font-weight: 500; letter-spacing: 0.4px; font-family: 'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .node { font-size: 10px; font-weight: 600; letter-spacing: 2px; font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .fade { animation: fadeIn 1.2s ease-in-out forwards; }
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   </style>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a1628"/><stop offset="55%" stop-color="#0f1d35"/><stop offset="100%" stop-color="#162a4a"/>
     </linearGradient>
-    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e3a63"/><stop offset="100%" stop-color="#3b7dd8"/>
-    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b7dd8" stop-opacity="0.20"/><stop offset="70%" stop-color="#3b7dd8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0 H0 V42" fill="none" stroke="#3b7dd8" stroke-width="1" opacity="0.05"/>
+    </pattern>
   </defs>
 
   <rect width="854" height="200" fill="url(#bg)"/>
+  <rect width="854" height="200" fill="url(#grid)"/>
+  <ellipse cx="427" cy="74" rx="320" ry="72" fill="url(#glow)"/>
 
-  <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-    <path d="" fill="url(#wave)" opacity="0.45">
-      <animate
-        attributeName="d"
-        dur="20s"
-        repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
-        calcmod="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="0s"
-        values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z">
-      </animate>
-    </path>
-    <path d="" fill="url(#wave)" opacity="0.3">
-      <animate
-        attributeName="d"
-        dur="20s"
-        repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
-        calcmod="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="-10s"
-        values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z">
-      </animate>
-    </path>
+  <text x="50%" y="70" text-anchor="middle" class="name fade" style="fill:#ffffff;">Fadi Labib</text>
+  <text x="50%" y="104" text-anchor="middle" class="desc fade" style="fill:#dbeafe;">AI Experiments · Software-defined physical systems · Edge-to-cloud</text>
+
+  <!-- edge to cloud telemetry flow -->
+  <g>
+    <line x1="247" y1="156" x2="607" y2="156" stroke="#3b7dd8" stroke-width="1.5" stroke-dasharray="2 6" opacity="0.4"/>
+
+    <!-- edge node (device / gateway) -->
+    <rect x="231" y="148" width="16" height="16" rx="3" fill="#3b7dd8" stroke="#93c5fd" stroke-width="1"/>
+    <text x="239" y="182" text-anchor="middle" class="node" style="fill:#6b9be3;">EDGE</text>
+
+    <!-- cloud node with pulsing reception ring -->
+    <circle cx="615" cy="156" r="8" fill="#3b7dd8" stroke="#93c5fd" stroke-width="1"/>
+    <circle cx="615" cy="156" r="8" fill="none" stroke="#3b7dd8" stroke-width="2">
+      <animate attributeName="r" values="8;20" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="615" y="182" text-anchor="middle" class="node" style="fill:#6b9be3;">CLOUD</text>
+
+    <!-- traveling telemetry packets -->
+    <circle r="3.5" cx="247" cy="156" opacity="0" fill="#93c5fd">
+      <animate attributeName="cx" values="247;607" dur="2.6s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.6s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle r="3.5" cx="247" cy="156" opacity="0" fill="#93c5fd">
+      <animate attributeName="cx" values="247;607" dur="2.6s" repeatCount="indefinite" begin="0.87s"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.6s" repeatCount="indefinite" begin="0.87s"/>
+    </circle>
+    <circle r="3.5" cx="247" cy="156" opacity="0" fill="#93c5fd">
+      <animate attributeName="cx" values="247;607" dur="2.6s" repeatCount="indefinite" begin="1.73s"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.6s" repeatCount="indefinite" begin="1.73s"/>
+    </circle>
   </g>
-
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="46%" class="name" style="fill:#ffffff;">Fadi Labib</text>
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="64%" class="desc" style="fill:#dbeafe;">AI Experiments · Software-defined physical systems · Edge-to-cloud</text>
 </svg>
