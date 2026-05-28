@@ -2,9 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=3" alt="Fadi Labib — software-defined physical systems, edge-to-cloud" width="100%" />
 
-### I build **software-defined physical systems** — and the **edge-to-cloud** layer that ties them together
+### Hands-on **experiments in what AI does to how we ship**
 
-Robots, drones, and fleet telemetry on one side. Hands-on **experiments in what AI does to how we ship** on the other.<br/>
+I build **software-defined physical systems** — robots, drones, and fleet telemetry, plus the **edge-to-cloud** layer that ties them together.<br/>
 15 years across Silicon Valley, Europe, and the Middle East. I write what I build.
 
 <a href="https://fadilabib.com"><b>fadilabib.com</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/fadi-labib">LinkedIn</a>
