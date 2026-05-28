@@ -19,7 +19,7 @@ I ship, then write what I learned.
 
 <div align="center">
 
-<img width="98%" alt="3D commit city of my contributions" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/contrib-3d.svg" />
+<img width="98%" alt="3D city of my contributions" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/contrib-3d.svg?v=2" />
 
 </div>
 
