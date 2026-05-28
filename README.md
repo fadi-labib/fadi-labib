@@ -9,9 +9,9 @@ plus the **edge-to-cloud** layer that ties them together.
 
 I ship, then write what I learned.
 
-<a href="https://fadilabib.com"><img src="https://img.shields.io/badge/fadilabib.com-3b7dd8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-&nbsp;
 <a href="https://www.linkedin.com/in/fadi-labib"><img src="https://img.shields.io/badge/LinkedIn-3b7dd8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://fadilabib.com"><img src="https://img.shields.io/badge/fadilabib.com-3b7dd8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 
 </div>
 
