@@ -116,7 +116,7 @@ export const createSvg = (
             .attr('x', positionXContrib)
             .attr('y', positionYContrib)
             .attr('text-anchor', 'end')
-            .text(util.inertThousandSeparator(userInfo.totalContributions))
+            .text(userInfo.totalContributions.toLocaleString('en-US'))
             .attr('class', 'fill-strong');
 
         group

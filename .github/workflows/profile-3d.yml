@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 2 * * *"   # nightly, 02:00 UTC
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -18,16 +15,18 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
       - name: Clone 3d-contrib generator (pinned)
         run: git clone --depth 1 --branch v0.9.2 https://github.com/yoshi389111/github-profile-3d-contrib.git gen
 
       - name: Apply custom renderer (commits-only, brand crop)
         run: cp .github/3d-contrib/create-svg.ts gen/src/create-svg.ts
+
+      - name: Set up Node (with npm cache)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: gen/package-lock.json
 
       - name: Generate the 3D contribution SVG
         working-directory: gen
