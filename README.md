@@ -19,11 +19,7 @@ I ship, then write what I learned.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
-  <img width="98%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/github-snake.svg" />
-</picture>
+<img width="98%" alt="3D commit city of my contributions" src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/output/contrib-3d.svg" />
 
 </div>
 

@@ -1,0 +1,53 @@
+name: Generate 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # nightly, 02:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone 3d-contrib generator (pinned)
+        run: git clone --depth 1 --branch v0.9.2 https://github.com/yoshi389111/github-profile-3d-contrib.git gen
+
+      - name: Apply custom renderer (commits-only, brand crop)
+        run: cp .github/3d-contrib/create-svg.ts gen/src/create-svg.ts
+
+      - name: Generate the 3D contribution SVG
+        working-directory: gen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ${{ github.workspace }}/.github/3d-contrib/settings.json
+        run: |
+          npm ci
+          npm run dev
+
+      - name: Stage SVG for publishing
+        run: |
+          mkdir -p dist
+          cp gen/profile-3d-contrib/profile-customize.svg dist/contrib-3d.svg
+
+      - name: Push SVG to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
