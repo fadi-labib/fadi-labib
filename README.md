@@ -4,7 +4,9 @@
 
 ### Hands-on **experiments in what AI does to how we ship**
 
-I build **software-defined physical systems**: robots, drones, and fleet telemetry, plus the **edge-to-cloud** layer that ties them together.<br/>
+I build **software-defined physical systems**: robots, drones, and fleet telemetry,<br/>
+plus the **edge-to-cloud** layer that ties them together.
+
 I ship, then write what I learned.
 
 <a href="https://fadilabib.com"><img src="https://img.shields.io/badge/fadilabib.com-3b7dd8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
