@@ -32,7 +32,9 @@ jobs:
       - name: Generate the 3D contribution SVG
         working-directory: gen
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Uses a personal access token (read:user) if provided so private
+          # contributions are included; falls back to the default token (public only).
+          GITHUB_TOKEN: ${{ secrets.GH_CONTRIB_PAT || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ${{ github.workspace }}/.github/3d-contrib/settings.json
         run: |

@@ -116,9 +116,7 @@ export const createSvg = (
             .attr('x', positionXContrib)
             .attr('y', positionYContrib)
             .attr('text-anchor', 'end')
-            .text(
-                util.inertThousandSeparator(userInfo.totalCommitContributions),
-            )
+            .text(util.inertThousandSeparator(userInfo.totalContributions))
             .attr('class', 'fill-strong');
 
         group
@@ -127,7 +125,7 @@ export const createSvg = (
             .attr('x', positionXContrib + 10)
             .attr('y', positionYContrib)
             .attr('text-anchor', 'start')
-            .text('commits')
+            .text('contributions')
             .attr('class', 'fill-fg');
     }
     return container.html();

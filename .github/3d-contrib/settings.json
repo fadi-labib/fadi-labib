@@ -1,5 +1,6 @@
 {
   "type": "normal",
+  "growingAnimation": true,
   "backgroundColor": "#0a1628",
   "foregroundColor": "#dbeafe",
   "strongColor": "#3b7dd8",
