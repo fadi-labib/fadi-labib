@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=6" alt="Fadi Labib · AI experiments · software-defined physical systems · edge-to-cloud" width="100%" />
+<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=7" alt="Fadi Labib · AI experiments · software-defined physical systems · edge-to-cloud" width="100%" />
 
 ### Hands-on **experiments in what AI does to how we ship**
 
