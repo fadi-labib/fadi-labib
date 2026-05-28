@@ -1,63 +1,17 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=3" alt="Fadi Labib — software-defined physical systems, edge-to-cloud" width="100%" />
+<img src="https://raw.githubusercontent.com/fadi-labib/fadi-labib/main/assets/header.svg?v=4" alt="Fadi Labib · AI experiments · software-defined physical systems · edge-to-cloud" width="100%" />
 
 ### Hands-on **experiments in what AI does to how we ship**
 
-I build **software-defined physical systems** — robots, drones, and fleet telemetry, plus the **edge-to-cloud** layer that ties them together.<br/>
-15 years across Silicon Valley, Europe, and the Middle East. I write what I build.
+I build **software-defined physical systems**: robots, drones, and fleet telemetry, plus the **edge-to-cloud** layer that ties them together.<br/>
+I write what I build.
 
 <a href="https://fadilabib.com"><b>fadilabib.com</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/fadi-labib">LinkedIn</a>
 
 </div>
 
-## 🤖 Systems I ship
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/ethobot">ethobot</a></h3>
-      Nature-inspired optimization for robot path planning &amp; swarm coordination — ethology turned into algorithms.<br/>
-      <sub><b>C++</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/bennu">bennu</a></h3>
-      DIY 7&quot; photogrammetry drone — PX4 + ROS 2 + OpenDroneMap, producing signed mission bundles for geospatial analysis.<br/>
-      <sub><b>Python</b></sub>
-    </td>
-  </tr>
-</table>
-
-## 🧪 AI experiments
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/ellmo">ellmo</a></h3>
-      Edge LLM infrastructure — quantize, LoRA-tune &amp; benchmark llama.cpp models for on-device inference.<br/>
-      <sub><b>Python</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/nanonav">nanonav</a></h3>
-      Tiny Recursive Model (TRM) for grid navigation — neural pathfinding that imitates A* via recursive reasoning.<br/>
-      <sub><b>Python</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/loupe">loupe</a></h3>
-      Auditor-credible AI lenses for code review.<br/>
-      <sub><b>Python</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fadi-labib/claude-skills">claude-skills</a></h3>
-      Claude Code plugin for automatic agent permission management.<br/>
-      <sub><b>Claude Code</b></sub>
-    </td>
-  </tr>
-</table>
-
-## 📊 Contributions
+## Contributions
 
 <div align="center">
 
@@ -69,7 +23,29 @@ I build **software-defined physical systems** — robots, drones, and fleet tele
 
 </div>
 
-## 🧰 Tech Stack
+## Systems I ship
+
+**[ethobot](https://github.com/fadi-labib/ethobot)** &nbsp;`C++`<br/>
+Nature-inspired path planning and swarm coordination
+
+**[bennu](https://github.com/fadi-labib/bennu)** &nbsp;`Python`<br/>
+DIY photogrammetry drone on PX4 + ROS 2 + OpenDroneMap
+
+**[loupe](https://github.com/fadi-labib/loupe)** &nbsp;`Python`<br/>
+Auditor-credible AI lenses for code review
+
+## AI experiments
+
+**[ellmo](https://github.com/fadi-labib/ellmo)** &nbsp;`Python`<br/>
+Edge LLM infrastructure for on-device inference
+
+**[nanonav](https://github.com/fadi-labib/nanonav)** &nbsp;`Python`<br/>
+Neural pathfinding that imitates A*
+
+**[genstart-wolfenstein](https://github.com/fadi-labib/genstart-wolfenstein)** &nbsp;`JavaScript`<br/>
+AI-generated Wolfenstein-style raycaster game
+
+## Tech Stack
 
 **Languages**
 
@@ -123,7 +99,7 @@ I build **software-defined physical systems** — robots, drones, and fleet tele
 ![FastAPI](https://img.shields.io/badge/FastAPI-162A4A?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-162A4A?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## 🤝 Connect
+## Connect
 
 <div align="center">
 
